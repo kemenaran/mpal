@@ -11,7 +11,7 @@ class Opal
       projet.agent_instructeur = agent_instructeur
       projet.save
     else
-      puts "ERREUR: #{response}"
+      puts "Error: Opal /createDossier failed with #{response}"
       false
     end
   end
